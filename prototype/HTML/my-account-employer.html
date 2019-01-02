@@ -14,8 +14,10 @@
 
 <!-- CSS
 ================================================== -->
+<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/green.css" id="colors">
+
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -109,12 +111,12 @@
 	<div class="container">
 
 		<div class="sixteen columns">
-			<h2>My Account</h2>
-			<nav id="breadcrumbs">
+			<h2>حساب کاربری کارفرما</h2>
+			<nav id="breadcrumbs" style="direction:ltr">
 				<ul>
-					<li>You are here:</li>
-					<li><a href="#">Home</a></li>
-					<li>My Account</li>
+					<li>شما اینجا هستید:</li>
+					<li><a href="#">خانه</a></li>
+					<li class="pi">حساب کاربری کارفرما</li>
 				</ul>
 			</nav>
 		</div>
@@ -147,12 +149,12 @@
 					
 					<p class="form-row form-row-wide">
 						<label for="username">ایمیل:</label>
-						<input type="text" class="input-text" name="username" id="username" value="" />
+						<input dir= "ltr" type="text" class="input-text" name="username" id="username" value="" />
 					</p>
 
 					<p class="form-row form-row-wide">
 						<label for="password">گذرواژه:</label>
-						<input class="input-text" type="password" name="password" id="password" />
+						<input dir= "ltr" class="input-text" type="password" name="password" id="password" />
 					</p>
 
 					<p class="form-row">
@@ -173,29 +175,29 @@
 				<!-- Register -->
 				<div class="tab-content" id="tab2" style="display: none;">
 
-					<h3 class="margin-bottom-10 margin-top-10">Register</h3>
+					<h3 class="margin-bottom-10 margin-top-10">ثبت‌نام</h3>
 
 					<form method="post" class="register">
 						
 						<p class="form-row form-row-wide">
-							<label for="reg_email">Email Address:</label>
-							<input type="email" class="input-text" name="email" id="reg_email" value="" />
+							<label for="reg_email">ایمیل:</label>
+							<input dir= "ltr"  type="email" class="input-text" name="email" id="reg_email" value="" />
 						</p>
 
 						
 						<p class="form-row form-row-wide">
-							<label for="reg_password">Password:</label>
-							<input type="password" class="input-text" name="password" id="reg_password" />
+							<label for="reg_password">گذرواژه:</label>
+							<input dir= "ltr" type="password" class="input-text" name="password" id="reg_password" />
 						</p>
 
 						<p class="form-row form-row-wide">
-							<label for="reg_password2">Repeat Password:</label>
-							<input type="password" class="input-text" name="password" id="reg_password2" />
+							<label for="reg_password2">تکرار گذرواژه:</label>
+							<input dir= "ltr" type="password" class="input-text" name="password" id="reg_password2" />
 						</p>
 
 									
 						<p class="form-row">
-							<input type="submit" class="button" name="register" value="Register" />
+							<input type="submit" class="button" name="register" value="ثبت‌نام" />
 						</p>
 						
 					</form>
@@ -298,7 +300,7 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 
 </body>
 </html>

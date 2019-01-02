@@ -65,10 +65,10 @@
   border-radius: .1em;
 }
 .fa-pull-left {
-  float: left;
+  float: right;
 }
 .fa-pull-right {
-  float: right;
+  float: left;
 }
 .fa.fa-pull-left {
   margin-right: .3em;
@@ -78,10 +78,10 @@
 }
 /* Deprecated as of 4.4.0 */
 .pull-right {
-  float: right;
+  float: left;
 }
 .pull-left {
-  float: left;
+  float: right;
 }
 .fa.pull-left {
   margin-right: .3em;
