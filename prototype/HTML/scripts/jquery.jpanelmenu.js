@@ -18,7 +18,7 @@
         clone: true,
         keepEventHandlers: false,
 
-        direction: 'left',
+        direction: 'right',
         openPosition: '250px',
         animated: false,
         closeOnContentClick: false,
