@@ -361,7 +361,10 @@ ul li ul a.sf-with-ul:after {
 	}
 }
 
-#jPanelMenu-menu { background-color: #282828; }
+#jPanelMenu-menu {
+	background-color: #282828; 
+	text-align: right
+}
 
 #jPanelMenu-menu #current:after,
 #jPanelMenu-menu .sf-sub-indicator { display: none; }
