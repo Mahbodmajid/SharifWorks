@@ -5514,8 +5514,8 @@ ul.footer-links { margin: 0 0 15px 0; }
 	display: inline-block;
 	cursor: pointer;
 	position: relative;
-	padding-left: 30px;
-	margin-right: 15px;
+	padding-right: 40px;
+	margin-left: 15px;
 }
 
 .checkboxes label span {
@@ -5532,7 +5532,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 	height: 19px;
 	margin-right: 10px;
 	position: absolute;
-	left: 0;
+	right: 0;
 	top: 0;
 	background-color: #fff;
 	border: 2px solid #d0d0d0;
