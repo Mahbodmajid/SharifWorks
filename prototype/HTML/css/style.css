@@ -5384,10 +5384,10 @@ ul.footer-links { margin: 0 0 15px 0; }
 
 .app-content .info ul li {
 	display: inline-block;
-	margin-right: 15px;
+	margin-left: 15px;
 }
 
-.app-content .info ul li a i { margin-right: 3px; }
+.app-content .info ul li a i { margin-left: 3px; }
 .app-content .info ul li a { color: #808080; }
 .app-content .info ul li a:hover { color: #505050; }
 
