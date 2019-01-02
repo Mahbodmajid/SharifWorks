@@ -5393,7 +5393,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 
 .app-content .buttons {
 	top: 0;
-	right: 40px;
+	left: 40px;
 	display: inline-block;
 	top: 52%;
 	-webkit-transform: translateY(-50%);
