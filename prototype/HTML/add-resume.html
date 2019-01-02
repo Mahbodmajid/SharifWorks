@@ -109,7 +109,7 @@
 	<div class="container">
 
 		<div class="sixteen columns">
-			<h2><i class="fa fa-plus-circle"></i> Add Resume</h2>
+			<h2><i class="fa fa-plus-circle"></i> تغییر اطلاعات</h2>
 		</div>
 
 	</div>
@@ -125,67 +125,78 @@
 		<div class="submit-page">
 
 			<!-- Notice -->
-			<div class="notification notice closeable margin-bottom-40">
+			<!-- <div class="notification notice closeable margin-bottom-40">
 				<p><span>Have an account?</span> If you don’t have an account you can create one below by entering your email address. A password will be automatically emailed to you.</p>
-			</div>
+			</div> -->
 
 
 			<!-- Linked In -->
 			<div class="form">
-				<h5>LinkedIn</h5>
-				<a href="#" class="button linkedin-btn">Import from LinkedIn</a>
+				<h5> صفحه‌ی LinkedIn</h5>
+				<a href="#" class="button linkedin-btn" dir="rtl" >Import from LinkedIn</a>
 			</div>
 
 			<!-- Email -->
 			<div class="form">
-				<h5>Your Name</h5>
-				<input class="search-field" type="text" placeholder="Your full name" value=""/>
+				<h5>نام و نام خانوادگی</h5>
+				<input class="search-field" type="text" placeholder="نام کامل شما" value=""/>
 			</div>
 
 			<!-- Email -->
-			<div class="form">
+			<!-- <div class="form">
 				<h5>Your Email</h5>
 				<input class="search-field" type="text" placeholder="mail@example.com" value=""/>
-			</div>
+			</div> -->
 
 			<!-- Title -->
 			<div class="form">
-				<h5>Professional Title</h5>
-				<input class="search-field" type="text" placeholder="e.g. Web Developer" value=""/>
+				<h5>عنوان حرفه‌ای</h5>
+				<input class="search-field" type="text" placeholder="مثال: توسعه‌دهنده‌ی وب" value=""/>
 			</div>
 
 			<!-- Location -->
 			<div class="form">
-				<h5>Location</h5>
-				<input class="search-field" type="text" placeholder="e.g. London, UK" value=""/>
+				<h5>آدرس</h5>
+				<input class="search-field" type="text" placeholder="مثال: تهران، خیابان شریعتی" value=""/>
 			</div>
+
+			<!-- CV -->
+			<div class="form">
+				<h5>رزومه </h5>
+				<label class="upload-btn">
+				    <input type="file" multiple />
+				    <i class="fa fa-upload" dir="rtl" ></i> Browse
+				</label>
+				<span class="fake-input" dir="rtl" >No file selected</span>
+			</div>
+
 
 			<!-- Logo -->
 			<div class="form">
-				<h5>Photo <span>(optional)</span></h5>
+				<h5>عکس <span>(اختیاری)</span></h5>
 				<label class="upload-btn">
 				    <input type="file" multiple />
-				    <i class="fa fa-upload"></i> Browse
+				    <i class="fa fa-upload" dir="rtl" ></i> Browse
 				</label>
-				<span class="fake-input">No file selected</span>
+				<span class="fake-input" dir="rtl" >No file selected</span>
 			</div>
 
 			<!-- Email -->
 			<div class="form">
-				<h5>Video <span>(optional)</span></h5>
-				<input class="search-field" type="text" placeholder="A link to a video about you" value=""/>
+				<h5>ویدیو <span>(اختیاری)</span></h5>
+				<input class="search-field" type="text" placeholder="لینک به ویدیو معرفی" value=""/>
 			</div>
 
 			<!-- Description -->
 			<div class="form">
-				<h5>Resume Content</h5>
+				<h5>توضیحات</h5>
 				<textarea class="WYSIWYG" name="summary" cols="40" rows="3" id="summary" spellcheck="true"></textarea>
 			</div>
 
 
 			<!-- Add URLs -->
 			<div class="form with-line">
-				<h5>URL(s) <span>(optional)</span></h5>
+				<h5>لینک‌(ها) <span>(اختیاری)</span></h5>
 				<div class="form-inside">
 					
 					<!-- Adding URL(s) -->
@@ -195,18 +206,18 @@
 						<input class="search-field" type="text" placeholder="http://" value=""/>
 					</div>
 
-					<a href="#" class="button gray add-url add-box"><i class="fa fa-plus-circle"></i> Add URL</a>
-					<p class="note">Optionally provide links to any of your websites or social network profiles.</p>
+					<a href="#" class="button gray add-url add-box"><i class="fa fa-plus-circle"></i>  اضافه‌کردن لینک</a>
+					<p class="note">مثال:‌ لینک به صفحه‌ی شخصی شما</p>
 				</div>
 			</div>
 
 
 			<!-- Education -->
-			<div class="form with-line">
+			<!-- <div class="form with-line">
 				<h5>Education <span>(optional)</span></h5>
 				<div class="form-inside">
 
-					<!-- Add Education -->
+					
 					<div class="form boxed box-to-clone education-box">
 						<a href="#" class="close-form remove-box button"><i class="fa fa-close"></i></a>
 						<input class="search-field" type="text" placeholder="School Name" value=""/>
@@ -217,15 +228,15 @@
 
 					<a href="#" class="button gray add-education add-box"><i class="fa fa-plus-circle"></i> Add Education</a>
 				</div>
-			</div>
+			</div> -->
 
 
 			<!-- Experience  -->
-			<div class="form with-line">
+			<!-- <div class="form with-line">
 				<h5>Experience <span>(optional)</span></h5>
 				<div class="form-inside">
 
-					<!-- Add Experience -->
+					
 					<div class="form boxed box-to-clone experience-box">
 						<a href="#" class="close-form remove-box button"><i class="fa fa-close"></i></a>
 						<input class="search-field" type="text" placeholder="Employer" value=""/>
@@ -236,11 +247,11 @@
 
 					<a href="#" class="button gray add-experience add-box"><i class="fa fa-plus-circle"></i> Add Experience</a>
 				</div>
-			</div>
+			</div> -->
 
 
 			<div class="divider margin-top-0 padding-reset"></div>
-			<a href="#" class="button big margin-top-5">Preview <i class="fa fa-arrow-circle-right"></i></a>
+			<a href="#" class="button big margin-top-5"> <i class="fa fa-arrow-circle-left"></i> ویرایش</a>
 
 		</div>
 	</div>
