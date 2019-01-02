@@ -5560,6 +5560,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 	background-color: #fafafa;
 	padding: 25px 40px;
 	border-bottom: 1px solid #e0e0e0;
+	text-align: right;
 }
 
 #small-dialog.apply-popup { padding: 0; }
@@ -5585,7 +5586,7 @@ label.upload-btn input[type="file"] { display: none; }
 .fake-input {  padding: 10px 18px; margin-bottom: 17px;}
 .upload-info span { float: left; }
 
-.upload-info { margin: 20px 0 10px 0; }
+.upload-info { margin: 20px 0 10px 0; text-align: right }
 
 .small-dialog-content button.send {
 	width: 100%;
