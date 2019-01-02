@@ -442,7 +442,7 @@ ul li ul a.sf-with-ul:after {
 	box-sizing: border-box;
 	padding: 19px 20px;
 	border: none;
-	margin-right: 2%;
+	margin-left: 2%;
 	width: 44.5%;
 	float: right;
 }
