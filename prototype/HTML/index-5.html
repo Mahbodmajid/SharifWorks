@@ -85,7 +85,7 @@
 			</ul>
 
 
-			<ul class="responsive float-right">
+			<ul class="float-right">
 				<li><a href="my-account.html#tab2"><i class="fa fa-user"></i> Sign Up</a></li>
 				<li><a href="my-account.html"><i class="fa fa-lock"></i> Log In</a></li>
 			</ul>
@@ -103,39 +103,63 @@
 <div class="clearfix"></div>
 
 
-
-<!-- Slider
+<!-- Banner
 ================================================== -->
-<div class="fullwidthbanner-container">
-	<div class="fullwidthbanner">
-		<ul>
+<div id="banner" style="background: url(images/banner-home-01.jpg)">
+	<div class="container">
+		<div class="sixteen columns">
+			
+			<div class="search-container">
 
-			<!-- Slide 1 -->
-			<li data-fstransition="fade" data-transition="fade" data-slotamount="10" data-masterspeed="300">
-				<img src="images/banner-02.jpg" alt="">
+				<!-- Form -->
+				<h2>Find job</h2>
+				<input type="text" class="ico-01" placeholder="job title, keywords or company name" value=""/>
+				<input type="text" class="ico-02" placeholder="city, province or region" value=""/>
+				<button><i class="fa fa-search"></i></button>
 
-				<div class="caption title sfb" data-x="center" data-y="165" data-speed="400" data-start="800"  data-easing="easeOutExpo">
-					<h2>تست فونت.</h2>
+				<!-- Browse Jobs -->
+				<div class="browse-jobs">
+					Browse job offers by <a href="browse-categories.html"> category</a> or <a href="#">location</a>
+				</div>
+				
+				<!-- Announce -->
+				<div class="announce">
+					We’ve over <strong>15 000</strong> job offers for you!
 				</div>
 
-				<div class="caption text align-center sfb" data-x="center" data-y="240" data-speed="400" data-start="1200" data-easing="easeOutExpo">
-					<p>Work Scout is most trusted job board, connecting the world's <br> brightest minds with resume database loaded with talents.</p>
-				</div>
+			</div>
 
-				<div class="caption sfb" data-x="center" data-y="370" data-speed="400" data-start="1600" data-easing="easeOutExpo">
-					<a href="add-job.html" class="slider-button">Hire</a>
-					<a href="browse-jobs.html" class="slider-button">Work</a>
-				</div>
-			</li>
-
-		</ul>
+		</div>
 	</div>
 </div>
 
 
-
 <!-- Content
 ================================================== -->
+
+<!-- Categories -->
+<div class="container">
+	<div class="sixteen columns">
+		<h3 class="margin-bottom-25">Popular Categories</h3>
+		<ul id="popular-categories">
+			<li><a href="#"><i class="fa fa-line-chart"></i> Accounting / Finance</a></li>
+			<li><a href="#"><i class="fa fa-wrench"></i> Automotive Jobs</a></li>
+			<li><a href="#"><i class="fa fa-building-o"></i> Construction / Facilities</a></li>
+			<li><a href="#"><i class="fa fa-graduation-cap"></i> Education Training</a></li>
+			<li><a href="#"><i class="fa fa-medkit"></i> Healthcare</a></li>
+			<li><a href="#"><i class="fa fa-cutlery"></i> Restaurant / Food Service</a></li>
+			<li><a href="#"><i class="fa fa-globe"></i> Transportation / Logistics</a></li>
+			<li><a href="#"><i class="fa fa-laptop"></i> Telecommunications</a></li>
+		</ul>
+
+		<div class="clearfix"></div>
+		<div class="margin-top-30"></div>
+
+		<a href="browse-categories.html" class="button centered">Browse All Categories</a>
+		<div class="margin-bottom-50"></div>
+	</div>
+</div>
+
 
 <div class="container">
 	
@@ -285,28 +309,104 @@
 </div>
 
 
-<!-- Info Banner -->
-<div class="container">
-	<div class="sixteen columns">
+<!-- Testimonials -->
+<div id="testimonials">
+	<!-- Slider -->
+	<div class="container">
+		<div class="sixteen columns">
+			<div class="testimonials-slider">
+				  <ul class="slides">
+				    <li>
+				      <p>I have already heard back about the internship I applied through Job Finder, that's the fastest job reply I've ever gotten and it's so much better than waiting weeks to hear back.
+				      <span>Collis Ta’eed, Envato</span></p>
+				    </li>
 
-		<div class="info-banner">
-			<div class="info-content">
-				<h3>Perfect Theme for Your Own Job Board</h3>
-				<p>Work Scout is a premium theme that is perfect for recruiters and job offices</p>
+				    <li>
+				      <p>Nam eu eleifend nulla. Duis consectetur sit amet risus sit amet venenatis. Pellentesque pulvinar ante a tincidunt placerat. Donec dapibus efficitur arcu, a rhoncus lectus egestas elementum.
+				      <span>John Doe</span></p>
+				    </li>
+				    
+				    <li>
+				      <p>Maecenas congue sed massa et porttitor. Duis placerat commodo ex, ut faucibus est facilisis ac. Donec eleifend arcu sed sem posuere aliquet. Etiam lorem metus, suscipit vel tortor vitae.
+				      <span>Tom Smith</span></p>
+				    </li>
+
+				  </ul>
 			</div>
-			<a href="#" class="button">Get This Theme</a>
-			<div class="clearfix"></div>
 		</div>
-
 	</div>
 </div>
 
 
+<!-- Infobox -->
+<div class="infobox">
+	<div class="container">
+		<div class="sixteen columns">Start Building Your Own Job Board Now <a href="my-account.html">Get Started</a></div>
+	</div>
+</div>
+
+
+<!-- Recent Posts -->
+<div class="container">
+	<div class="sixteen columns">
+		<h3 class="margin-bottom-25">Recent Posts</h3>
+	</div>
+
+
+	<div class="one-third column">
+
+		<!-- Post #1 -->
+		<div class="recent-post">
+			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-01.jpg" alt=""></a><div class="hover-icon"></div></div>
+			<a href="blog-single-post.html"><h4>Hey Job Seeker, It’s Time To Get Up And Get Hired</h4></a>
+			<div class="meta-tags">
+				<span>October 10, 2015</span>
+				<span><a href="#">0 Comments</a></span>
+			</div>
+			<p>The world of job seeking can be all consuming. From secretly stalking the open reqs page of your dream company to sending endless applications.</p>
+			<a href="blog-single-post.html" class="button">Read More</a>
+		</div>
+
+	</div>
+
+
+	<div class="one-third column">
+
+		<!-- Post #2 -->
+		<div class="recent-post">
+			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-02.jpg" alt=""></a><div class="hover-icon"></div></div>
+			<a href="blog-single-post.html"><h4>How to "Woo" a Recruiter and Land Your Dream Job</h4></a>
+			<div class="meta-tags">
+				<span>September 12, 2015</span>
+				<span><a href="#">0 Comments</a></span>
+			</div>
+			<p>Struggling to find your significant other the perfect Valentine’s Day gift? If I may make a suggestion: woo a recruiter. </p>
+			<a href="blog-single-post.html" class="button">Read More</a>
+		</div>
+
+	</div>
+
+	<div class="one-third column">
+
+		<!-- Post #3 -->
+		<div class="recent-post">
+			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-03.jpg" alt=""></a><div class="hover-icon"></div></div>
+			<a href="blog-single-post.html"><h4>11 Tips to Help You Get New Clients Through Cold Calling</h4></a>
+			<div class="meta-tags">
+				<span>August 27, 2015</span>
+				<span><a href="#">0 Comments</a></span>
+			</div>
+			<p>If your dream employer appears on this list, you’re certainly in good company. But it also means you’re up for some intense competition.</p>
+			<a href="blog-single-post.html" class="button">Read More</a>
+		</div>
+	</div>
+
+</div>
 
 
 <!-- Footer
 ================================================== -->
-<div class="margin-top-55"></div>
+<div class="margin-top-15"></div>
 
 <div id="footer">
 	<!-- Main -->
@@ -396,6 +496,7 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
+
 
 
 </body>
