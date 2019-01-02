@@ -55,7 +55,7 @@ header {
 #logo {
 	margin-left: 0;
 	display: inline-block;
-	float: left;
+	float: right;
 	height: 41px;
 }
 
@@ -68,7 +68,7 @@ header.full-width .container .sixteen.columns {
 	width: 100%;
 	padding-left: 20px;
 	box-sizing: border-box;
-	float: left;
+	float: right;
 	margin: 0;
 }
 
@@ -96,7 +96,7 @@ header.full-width #navigation ul.float-right { right: 35px; }
 /* Navigation
 ------------------------------------- */
 
-#navigation { float: left; margin-right: 0; }
+#navigation { float: right; margin-right: 0; }
 
 #navigation ul.float-right {
 	right: 10px;
@@ -132,7 +132,7 @@ header.full-width #navigation ul.float-right { right: 35px; }
 	letter-spacing: 0;
 }
 
-.menu > ul li { float: left; }
+.menu > ul li { float: right; }
 .menu ul li:hover > ul { display: block; }
 
 .menu ul a {
@@ -254,7 +254,7 @@ ul.float-right li a:hover,
 	height: 5px;
 	display: inline-block;
 	color: rgba(0,0,0,0.4);
-	float: right;
+	float: left;
 	font-weight: 500;
 }
 
@@ -293,7 +293,7 @@ ul li ul a.sf-with-ul:after {
 		color: #fff;
 		background-color: #282828;
 		display: block;
-		float: left;
+		float: right;
 		z-index: 100;
 		position: relative;
 		margin: 0 0 30px 0;
@@ -436,13 +436,13 @@ ul li ul a.sf-with-ul:after {
 .search-container input {
 	font-weight: 500;
 	font-size: 18px;
-	float: left;
+	float: right;
 	box-sizing: border-box;
 	padding: 19px 20px;
 	border: none;
 	margin-right: 2%;
 	width: 44.5%;
-	float: left;
+	float: right;
 }
 
 
@@ -934,7 +934,7 @@ table.manage-table td.action a:hover { color: #505050; }
 ------------------------------------- */
 .my-account {
 	width: 430px;
-	float: left;
+	float: right;
 	display: inline;
 	margin: 0 auto !important;
 	float: none !important;
@@ -1656,7 +1656,7 @@ img.mfp-img {
 
 .notification.notice p span i { font-weight: 500; }
 .notification a.button {
-	float: right;
+	float: left;
 	color: #fff;
 	margin-top: 3px;
 }
@@ -1723,7 +1723,7 @@ img.mfp-img {
 	width: 25%;
 	display: inline-block;
 	border: 1px solid #e0e0e0;
-	float: left;
+	float: right;
 	margin: -1px 0 0 -1px;
 	box-sizing: border-box;
 	text-align: center;
@@ -1800,7 +1800,7 @@ img.mfp-img {
 	margin: 0 0 0 0;
 	position: relative;
 	color: #505050;
-	float: left;
+	float: right;
 	margin-left: -20px;
 	display: block;
 }
@@ -1820,10 +1820,11 @@ img.mfp-img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	align: ri
 }
 
 .tabs-nav li {
-	float: left;
+	float: right;
 	line-height: 45px;
 	overflow: hidden;
 	padding: 0;
@@ -1916,7 +1917,7 @@ img.mfp-img {
 	height: 15px;
 	width: 25px;
 	display: block;
-	float: left;
+	float: right;
 	margin: 22px 0 0 32px;
 	font-weight: normal;
 }
@@ -1982,7 +1983,7 @@ img.mfp-img {
 }
 
 .info-content {
-	float: left;
+	float: right;
 	font-size: 18px;
 }
 
@@ -1992,7 +1993,7 @@ img.mfp-img {
 }
 
 .info-banner a.button {
-	float: right;
+	float: left;
 	margin: 7px 0 0 0;
 	font-size: 16px;
 	padding: 11px 17px;
@@ -2008,7 +2009,7 @@ img.mfp-img {
 /* Dropcaps
 ------------------------------------- */
 .dropcap {
-	float: left;
+	float: right;
 	color: #505050;
 	font-size: 48px;
 	line-height: 44px;
@@ -2156,7 +2157,7 @@ img.mfp-img {
 .contact-informations p { margin:0; }
 
 .contact-informations li i {
-	float: left;
+	float: right;
 	margin: 4px 7px 0 0;
 	color: #888;
 }
@@ -2240,7 +2241,7 @@ img.mfp-img {
 ---------------------------------------------------------------------- */
 .social-icons li {
 	display: inline;
-	float: left;
+	float: right;
 	margin-right: 4px;
 	text-align: left;
 }
@@ -2757,7 +2758,7 @@ img.mfp-img {
 
 /* Content*/
 .job-list img {
-	float: left;
+	float: right;
 	display: inline-block;
 	margin-left: 35px;
 	margin-top: 2px;
@@ -2770,7 +2771,7 @@ img.mfp-img {
 	border-radius: 50%;
 	width: 90px;
 	height: 90px;  
-	float: left;
+	float: right;
 	display: inline-block;
 	margin: 35px 0 35px 35px;
 }
@@ -2781,7 +2782,7 @@ img.mfp-img {
 	height: 110px;
 	margin-top: 6px;
 	margin-left: 0;
-	float: left;
+	float: right;
 	display: inline-block;
 }
 
@@ -2852,7 +2853,7 @@ img.mfp-img {
 	background-color: #c0c0c0;
 	color: #fff !important;
 	margin: 0 3px 0 0 !important;
-	float: left;
+	float: right;
 	font-size: 12px !important;
 	font-weight: 600;
 	line-height: 19px;
@@ -2978,7 +2979,7 @@ li .job-spotlight p { line-height: 27px; }
 }
 
 .company-info img {
-	float: left;
+	float: right;
 	display: inline-block;
 	height: 100px;
 	width: 100px;
@@ -2987,7 +2988,7 @@ li .job-spotlight p { line-height: 27px; }
 
 .company-info .content {
 	display: block;
-	float: left;
+	float: right;
 	margin: 23px 0 0 0px;
 }
 
@@ -3396,8 +3397,8 @@ html[xmlns] .flexslider .slides {
 	color: #fff;
 }
 
-.pagination-next-prev a.next { float: right; }
-.pagination-next-prev a.prev { float: left; }
+.pagination-next-prev a.next { float: left; }
+.pagination-next-prev a.prev { float: right; }
 
 .pagination-next-prev ul li a {
 	color: #888;
@@ -3543,7 +3544,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .showbiz .overflowholder ul li {
-	float: left !important;
+	float: right !important;
 	position:relative;
 }
 
@@ -3639,7 +3640,7 @@ html[xmlns] .flexslider .slides {
 /* Navigation #1
 ------------------------------------- */
 .showbiz-navigation	{
-	float: right;
+	float: left;
 	margin: -39px -1px 0 0px;
 }
 
@@ -3657,7 +3658,7 @@ html[xmlns] .flexslider .slides {
 .sb-navigation-left,
 .sb-navigation-right {
 	cursor: pointer;
-	float: left;
+	float: right;
 }
 
 .sb-navigation-left	{ margin-right: 3px; }
@@ -3957,7 +3958,7 @@ a.post-img:hover:before {
 .comments-amount { color: #888; font-weight: 500; }
 
 .avatar {
-	float: left;
+	float: right;
 	display: inline-block;
 	position: absolute;
 	left: -90px;
@@ -4109,7 +4110,7 @@ a.post-img:hover:before {
 	display: block;
 	width: 88px;
 	height: 88px;
-	float: left;
+	float: right;
 	margin: 3px 18px 0 0;
 }
 
@@ -4163,7 +4164,7 @@ a.post-img:hover:before {
 	display: inline;
 }
 
-.widget .zip-code { float: right;}
+.widget .zip-code { float: left;}
 
 .widget .from {
 	display: inline;
@@ -4264,7 +4265,7 @@ a.post-img:hover:before {
 	height: 5px;
 	display: inline-block;
 	color: #c0c0c0;
-	float: right;
+	float: left;
 	font-weight: normal;
 }
 
@@ -4301,7 +4302,7 @@ a.post-img:hover:before {
 	height: 5px;
 	display: inline-block;
 	color: #aaa;
-	float: right;
+	float: left;
 	font-weight: normal;
 	z-index: 10;
 }
@@ -4400,7 +4401,7 @@ a.post-img:hover:before {
 }
 
 .chosen-container-multi .chosen-choices li {
-	float: left;
+	float: right;
 	list-style: none;
 }
 
@@ -4453,7 +4454,7 @@ a.post-img:hover:before {
 	height: 5px;
 	display: inline-block;
 	color: #fff;
-	float: right;
+	float: left;
 	font-weight: normal;
 }
 
@@ -4870,7 +4871,7 @@ div.sceditor-color-picker {
 	padding: 7px 13px;
 }
 .sceditor-color-column {
-	float: left;
+	float: right;
 }
 .sceditor-color-option {
 	display: block;
@@ -4921,7 +4922,7 @@ div.sceditor-group {
 	zoom: 1;
 }
 .sceditor-button {
-	float: left;
+	float: right;
 	cursor: pointer;
 	padding: 3px 5px;
 	width: 16px;
@@ -5017,7 +5018,7 @@ div.sceditor-group {
 	text-align: right;
 }
 .rtl .sceditor-button {
-	float: right;
+	float: left;
 }
 .rtl div.sceditor-grip {
 	right: auto;
@@ -5284,7 +5285,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 }
 
 .download-csv {
-	float: right;
+	float: left;
 }
 
 /* Tabs */
@@ -5303,12 +5304,12 @@ ul.footer-links { margin: 0 0 15px 0; }
 .app-tabs .app-tab-content .select-grid {
 	width: 49% !important;
 	display: inline-block;
-	float: left;
+	float: right;
 }
 
 .app-tabs .app-tab-content .select-grid:first-child { margin-right: 2%; }
 
-.delete-application {float: right; }
+.delete-application {float: left; }
 .delete-application:hover {background-color: #d51919 !important}
 
 .app-tabs a.close-tab {
@@ -5349,8 +5350,8 @@ ul.footer-links { margin: 0 0 15px 0; }
 
 
 /* Footer */
-.app-footer ul { float: right; }
-.app-footer .rating { float: left; margin-top: 1px; }
+.app-footer ul { float: left; }
+.app-footer .rating { float: right; margin-top: 1px; }
 
 .app-footer ul li {
 	display: inline-block;
@@ -5365,7 +5366,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 	width: 90px;
 	height: 90px;
 	margin-right: 30px;
-	float: left;
+	float: right;
 	display: inline-block;
 }
 
@@ -5471,7 +5472,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 	background-color: #505050;
 	cursor: pointer;
 	color: #FFF;
-	float: right;
+	float: left;
 	width: 56px;
 	height: 56px;
 	display: inline;
@@ -5495,7 +5496,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 	line-height: 20px;
 	box-sizing: border-box;
 	position: relative;
-	float: left;
+	float: right;
 	margin-top: -56px;
 }
 
@@ -5566,7 +5567,7 @@ ul.footer-links { margin: 0 0 15px 0; }
 label.upload-btn input[type="file"] { display: none; }
 
 .upload-btn {
-	float: left;
+	float: right;
 	padding: 11px 18px;
 	margin-right: 18px;
 }
@@ -5579,7 +5580,7 @@ label.upload-btn input[type="file"] { display: none; }
 
 .upload-btn i { margin-right: 2px; }
 .fake-input {  padding: 10px 18px; margin-bottom: 17px;}
-.upload-info span { float: right; }
+.upload-info span { float: left; }
 
 .upload-info { margin: 20px 0 10px 0; }
 
@@ -5668,7 +5669,7 @@ label.upload-btn input[type="file"] { display: none; }
 		line-height: 36px;
 	}
 
-	.info-banner a.button { margin-top: 20px; float: left; }
+	.info-banner a.button { margin-top: 20px; float: right; }
 
 	.caption h2 { font-size: 36px; }
 	.caption p {
@@ -5775,7 +5776,7 @@ label.upload-btn input[type="file"] { display: none; }
 		left: 0px;
 	}
 
-	.info-banner a.button { margin-top: 20px; float: left; }
+	.info-banner a.button { margin-top: 20px; float: right; }
 
 	.caption h2 { font-size: 22px; }
 	.caption p {
@@ -5835,7 +5836,7 @@ label.upload-btn input[type="file"] { display: none; }
 	}
 
 	.app-footer ul {
-	    float: left;
+	    float: right;
 	    margin-top: 7px;
 	}
 
@@ -5849,7 +5850,7 @@ label.upload-btn input[type="file"] { display: none; }
 	.app-tabs .app-tab-content .select-grid input { margin: 15px 0 0 0;}
 
 	.download-csv {
-		float: left;
+		float: right;
 		margin: -5px 0 20px 0;
 	}
 
