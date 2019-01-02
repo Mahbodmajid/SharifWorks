@@ -2740,7 +2740,7 @@ img.mfp-img {
 .job-spotlight span,
 .job-list li a span,
 .resumes-list li a span {
-	margin-right: 17px;
+	margin-left: 17px;
 	display: inline-block;
 }
 
@@ -4392,7 +4392,7 @@ a.post-img:hover:before {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	padding: 0 0 0 18px;
+	padding: 0 18px 0 0;
 	height: 47px;
 	line-height: 47px;
 	border: 1px solid #e0e0e0;
