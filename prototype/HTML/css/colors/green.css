@@ -69,20 +69,20 @@ table.manage-table td.action a:hover,
 .resumes-list li a:before,
 .job-list li a:before,
 table.manage-table tr:before {
-	-webkit-box-shadow: 0px 1px 0px 0px #85d361;
-	-moz-box-shadow: 0px 1px 0px 0px #85d361;
-	box-shadow: 0px 1px 0px 0px #85d361;
+	-webkit-box-shadow: 0px 1px 0px 0px #F9F0EA;
+	-moz-box-shadow: 0px 1px 0px 0px #F9F0EA;
+	box-shadow: 0px 1px 0px 0px #F9F0EA;
 }
 
 #popular-categories li a:before {
-	-webkit-box-shadow: 0px 0px 0px 1px #85d361;
-	-moz-box-shadow: 0px 0px 0px 1px #85d361;
-	box-shadow: 0px 0px 0px 1px #85d361;
+	-webkit-box-shadow: 0px 0px 0px 1px #F9F0EA;
+	-moz-box-shadow: 0px 0px 0px 1px #F9F0EA;
+	box-shadow: 0px 0px 0px 1px #F9F0EA;
 }
 
 table.manage-table tr:hover td,
 .resumes-list li:hover,
-.job-list li:hover { border-color: #85d361; }
+.job-list li:hover { border-color: #F9F0EA; }
 
 table.manage-table tr:hover td,
 .resumes-list li:hover,
