@@ -20,6 +20,9 @@
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
+
+@import url("fontiran.css");			/* Font Iran Fonts */
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -81,7 +84,7 @@
 	.widget-text h5,
 	h3.centered-headline span,
 	select {
-		font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "iranyekan", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
 	/* Secondary Font */
@@ -99,7 +102,7 @@
 	.trigger a, .caption.title, .caption .slider-button,
 	.counter, .counter-box i, a.menu-trigger,
 	#style-switcher h2, .resume-table strong
-	{ font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	{ font-family: "iranyekan", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 
 /* #Margin Styles
