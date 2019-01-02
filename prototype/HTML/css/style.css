@@ -449,8 +449,8 @@ ul li ul a.sf-with-ul:after {
 
 
 /* Form Icons */
-input.ico-01 { background: #fff url("../images/ico-01.png") no-repeat scroll 97% 20px / 21px 21px; }
-input.ico-02 { background: #fff url("../images/ico-02.png") no-repeat scroll 96% 20px / 14px 21px; }
+input.ico-01 { background: #fff url("../images/ico-01.png") no-repeat scroll 3% 20px / 21px 21px; }
+input.ico-02 { background: #fff url("../images/ico-02.png") no-repeat scroll 4% 20px / 14px 21px; }
 
 .search-container input:focus { border: none; }
 
@@ -5614,8 +5614,8 @@ label.upload-btn input[type="file"] { display: none; }
 @media only screen and (min-width: 960px) and (max-width: 1289px) {
 
 	.search-container { padding: 150px 0; }
-	input.ico-01 { background-position: 95.5% 20px; }
-	input.ico-02 { background-position: 95% 20px; }
+	input.ico-01 { background-position: 4.5% 20px; }
+	input.ico-02 { background-position: 5% 20px; }
 
 	#titlebar.single.submit-page h2, .submit-page { padding: 0; }
 }
@@ -5627,8 +5627,8 @@ label.upload-btn input[type="file"] { display: none; }
 	.search-container input.ico-01 { width: 49%; }
 	.search-container input.ico-02 { width: 37%; }
 	.search-container button  { width: 8.5%; }
-	input.ico-01 { background-position: 95% 20px; }
-	input.ico-02 { background-position: 93% 20px; }
+	input.ico-01 { background-position: 5% 20px; }
+	input.ico-02 { background-position: 7% 20px; }
 	.search-container { padding: 120px 0; }
 
 	.job-list img {
@@ -5723,8 +5723,8 @@ label.upload-btn input[type="file"] { display: none; }
 	.search-container input.ico-01 { width: 100%; margin: 0 0 15px 0; }
 	.search-container input.ico-02 { width: 100%; margin: 0 0 15px 0; }
 	.search-container button  { width: 100%; }
-	input.ico-01 { background-position: 95% 20px; }
-	input.ico-02 { background-position: 94% 20px; }
+	input.ico-01 { background-position: 5% 20px; }
+	input.ico-02 { background-position: 6% 20px; }
 	.search-container { padding: 100px 0; }
 
 	#popular-categories li a { width: 100%; }
