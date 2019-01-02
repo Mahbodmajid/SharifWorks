@@ -48,7 +48,7 @@
 				<li><a href="#">برای کارفرمایان</a>
 				</li>
 
-				<li><a href="my-account-employee.html">برای کارجوها</a>
+				<li><a href="my-account-job-seeker.html">برای کارجوها</a>
 				</li>
 			</ul>
 
@@ -109,7 +109,7 @@
 					
 					<p class="form-row form-row-wide">
 						<label for="username">ایمیل:</label>
-						<input dir= "ltr" type="text" class="input-text" name="username" id="username" value="" />
+						<input dir= "ltr" type="email" class="input-text" name="username" id="username" value="" />
 					</p>
 
 					<p class="form-row form-row-wide">
@@ -121,7 +121,7 @@
 						<input type="submit" class="button" name="login" value="ورود" />
 
 						<label for="rememberme" class="rememberme">
-						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> مرا به‌خاطر بسپر</label>
+						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> مرا به‌خاطر بسپار</label>
 					</p>
 
 					<p class="lost_password">
@@ -138,13 +138,68 @@
 					<h3 class="margin-bottom-10 margin-top-10">ثبت‌نام</h3>
 
 					<form method="post" class="register">
-						
+
+						<p class="form-row form-row-wide">
+							<label for="reg_name">نام شرکت:</label>
+							<input type="text" class="input-text" name="email" id="reg_name" value="" />
+						</p>
+
+						<script>
+							$('input.limited').maxlength({
+								alwaysShow: true,
+								threshold: 10,
+								warningClass: "label label-success",
+								limitReachedClass: "label label-danger",
+								separator: ' of ',
+								preText: 'You have ',
+								postText: ' chars remaining.',
+								validate: true
+							});
+						</script>
+
+						<div class="form-group">
+							<label for="reg_brief_description">کمی توضیح درباره‌ی شرکت(حداکثر ۱۰۰ کاراکتر):</label>
+							<textarea class="form-control limited" id="reg_brief_description" rows="3" maxlength="100"></textarea>
+						</div>
+
+						<p class="form-row form-row-wide">
+							<label for="reg_is_public">نوع شرکت:</label>
+							<select class="form-control" id="reg_is_public">
+								<option>خصوصی</option>
+								<option>دولتی</option>
+							</select>
+						</p>
+
+						<p class="form-row form-row-wide">
+							<label for="reg_constitution_year">سال ساخت شرکت:</label>
+							<select id="reg_constitution_year" style="width:100%;" class="form-control selectWidth" >
+								<option>1397</option>
+								<option>1396</option>
+								<option>1395</option>
+								<option>1394</option>
+								<option>1393</option>
+								<option>1392</option>
+								<option>1391</option>
+								<option>1390</option>
+								<option>1389</option>
+								<option>1388</option>
+								<option>1387</option>
+								<option>1386</option>
+								<option>1385</option>
+								<option>1384</option>
+								<option>1383</option>
+								<option>1382</option>
+								<option>1381</option>
+							</select>
+						</p>
+
 						<p class="form-row form-row-wide">
 							<label for="reg_email">ایمیل:</label>
 							<input dir= "ltr"  type="email" class="input-text" name="email" id="reg_email" value="" />
 						</p>
 
-						
+
+
 						<p class="form-row form-row-wide">
 							<label for="reg_password">گذرواژه:</label>
 							<input dir= "ltr" type="password" class="input-text" name="password" id="reg_password" />
@@ -159,7 +214,8 @@
 						<p class="form-row">
 							<input type="submit" class="button" name="register" value="ثبت‌نام" />
 						</p>
-						
+
+
 					</form>
 				</div>
 		</div>
@@ -261,6 +317,5 @@
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-
 </body>
 </html>
