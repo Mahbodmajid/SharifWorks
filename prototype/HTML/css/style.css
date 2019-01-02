@@ -765,7 +765,7 @@ a.button.centered {
 }
 
 
-a.button i { margin-right: 3px; }
+a.button i { margin-left: 3px; }
 
 a.button.gray.app-link.opened:hover,
 .upload-btn,
