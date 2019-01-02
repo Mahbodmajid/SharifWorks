@@ -29,7 +29,9 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline; }
+		vertical-align: baseline; 
+		direction: rtl;
+		text-align:right;}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
