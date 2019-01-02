@@ -98,7 +98,7 @@ header.full-width #navigation ul.float-right { right: 35px; }
 #navigation { float: right; margin-right: 0; }
 
 #navigation ul.float-right {
-	right: 10px;
+	left: 10px;
 	top: 0;
 	position: absolute;
 }
