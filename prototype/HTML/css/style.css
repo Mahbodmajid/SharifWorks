@@ -2796,7 +2796,7 @@ img.mfp-img {
 .resumes-list .resumes-list-content,
 .job-list .job-list-content {
 	display: block;
-	margin-left: 125px;
+	margin-right: 125px;
 	position: relative;
 }
 
