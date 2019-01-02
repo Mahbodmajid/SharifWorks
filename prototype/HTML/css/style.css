@@ -810,7 +810,7 @@ table.manage-table th {
 	margin-left: 33px !important;
 }
 
-table.manage-table th i { position: absolute; left: 17px; top: 21px; }
+table.manage-table th i { position: absolute; right: 17px; top: 21px; }
 
 table.manage-table a.button {
 	padding: 7px 14px;
@@ -820,7 +820,7 @@ table.manage-table a.button {
 table.manage-table tr:nth-child(2n+1) { background-color: #fbfbfb; }
 
 table.manage-table th:first-child { width: 32%; padding-left: 55px; }
-table.manage-table th:first-child i { left: 35px; }
+table.manage-table th:first-child i { right: 35px; }
 table.manage-table.resumes th:first-child { width: auto; }
 
 table.manage-table.resumes td:first-child,
@@ -862,7 +862,7 @@ table.manage-table td.centered { text-align: center; }
 
 table.manage-table td.action a { display: block; color: #333; line-height: 20px; padding: 3px 0; position: relative; margin-left: 21px; }
 table.manage-table td.action a.delete i { left: -20px; }
-table.manage-table td.action a i { position: absolute; left: -21px; top: 5px; }
+table.manage-table td.action a i { position: absolute; right: -21px; top: 5px; }
 
 table.manage-table td.action a.delete:hover { color: #f02929; }
 
