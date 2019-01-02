@@ -557,7 +557,7 @@ input.ico-02 { background: #fff url("../images/ico-02.png") no-repeat scroll 96%
 }
 
 #titlebar .two-buttons .button {
-	right: 10px;
+	left: 10px;
 	position: absolute;
 	top: 47%;
 	-webkit-transform: translateY(-100%);
