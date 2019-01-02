@@ -5572,7 +5572,7 @@ label.upload-btn input[type="file"] { display: none; }
 .upload-btn {
 	float: right;
 	padding: 11px 18px;
-	margin-right: 18px;
+	margin-left: 18px;
 }
 
 .small-dialog-content textarea {
