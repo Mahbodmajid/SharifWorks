@@ -2969,7 +2969,7 @@ li .job-spotlight p { line-height: 27px; }
 .job-overview ul li div {
 	position: relative;
 	top: -18px;
-	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .job-overview a.button { margin-top: 10px; }
