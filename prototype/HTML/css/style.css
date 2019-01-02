@@ -56,9 +56,10 @@ header {
 	margin-left: 0;
 	display: inline-block;
 	float: left;
+	height: 41px;
 }
 
-#logo img { margin-top: 24px; }
+#logo img { margin-top: 24px; height: 41px;}
 
 
 /* Full-Width Header Styles */
