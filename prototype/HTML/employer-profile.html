@@ -3,6 +3,9 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
@@ -16,6 +19,7 @@
 ================================================== -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/green.css" id="colors">
+
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -115,7 +119,12 @@
 					<span class="icons"><i class="fa fa-map-marker"></i> تهران </span>
 					<span class="icons"><a href="#"><i class="fa fa-link"></i> وب‌سایت</a></span>
 					<span class="icons"><a href="mailto:john.doe@example.com"><i class="fa fa-envelope"></i> info@digikala.com</a></span>
-					<div class="clearfix"></div>
+					<span class="icons">
+                        <div class="rating four-stars">
+                            <div class="star-rating"></div>
+                            <div class="star-bg"></div>
+                        </div>
+                    </span>
 
 				</div>
 			</div>
@@ -138,8 +147,6 @@
 		<p class="margin-reset">
 			  فروشگاه اینترنتی دیجیکالا از پیشروان تجارت الکتریک در ایران است. این شرکت با بیش از ۲ هزار نیرو روزانه به بیش از ۳۰ هزار سفارش پاسخ می‌دهد. ما در دیجیکالا منتظر شما دوستان مستعد شریفی هستیم :)
 		</p>
-
-		<br>
 
 		<h3 class="margin-bottom-15">موقعیت‌های شغلی</h3>
 
@@ -215,8 +222,12 @@
             <h5>موقعیت شغلی شما</h5>
             <input class="search-field" type="text" placeholder="موقعیت شغلی شما" value=""/>
         </div>
+
         <div class="form">
             <h5>نظر شما:</h5>
+            <div class="select-grid">
+                <input type="number" min="1" max="5" placeholder="امتیاز (از ۵)">
+            </div>
             <textarea class="WYSIWYG" name="summary" cols="40" rows="3" id="summary" spellcheck="true"></textarea>
         </div>
 
