@@ -5187,6 +5187,10 @@ textarea.WYSIWYG { min-height: 300px; }
 	width: 150px;
 }
 
+.show-transactions {
+	margin-top: 18px;
+}
+
 .submit-page .button.linkedin-btn { background-color: #0077b5; }
 
 .formline {
