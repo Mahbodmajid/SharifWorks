@@ -5176,7 +5176,7 @@ textarea.WYSIWYG { min-height: 300px; }
 }
 
 .transaction-text {
-	width:calc(100% - 200px);;
+	width:calc(100% - 200px);
 }
 
 .transaction-time {
@@ -5189,6 +5189,21 @@ textarea.WYSIWYG { min-height: 300px; }
 
 .show-transactions {
 	margin-top: 18px;
+}
+
+
+
+.favorite-job {
+	width:calc(100% - 230px);
+	float: right;
+}
+
+.favorite-delete {
+	width: 200px;
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 
 .submit-page .button.linkedin-btn { background-color: #0077b5; }
