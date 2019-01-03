@@ -30,32 +30,33 @@
 <!-- Header
 ================================================== -->
 <header>
-<div class="container">
-	<div class="sixteen columns">
+	<div class="container">
+		<div class="sixteen columns">
 
-		<!-- Logo -->
-		<div id="logo">
-			<h1><a href="job-seeker-home.html"><img src="images/logo.png" alt="شریف‌کار" /></a></h1>
+			<!-- Logo -->
+			<div id="logo">
+				<h1><a href="employer-home.html"><img src="images/logo.png" alt="شریف‌کار" /></a></h1>
+			</div>
+
+			<!-- Menu -->
+			<nav id="navigation" class="menu">
+				<ul id="responsive">
+					<li><a href="employer-home.html">کارجوهای پیشنهادی</a></li>
+					<li><a href="change-employer-info.html">ویرایش اطلاعات</a> </li>
+					<li><a href="add-job.html">افزودن آگهی</a></li>
+					<li><a href="manage-jobs.html">فهرست آگهی‌ها</a></li>
+					<li><a href="browse-resumes.html">جست‌وجوی کارجو</a></li>
+					<li><a href="index.html">خروج <i class="fa fa-sign-out"></i> </a></li>
+				</ul>
+			</nav>
+
+			<!-- Navigation -->
+			<div id="mobile-navigation">
+				<a href="#menu" class="menu-trigger"><i class="fa fa-reorder"></i> منو</a>
+			</div>
+
 		</div>
-
-		<!-- Menu -->
-		<nav id="navigation" class="menu">
-			<ul id="responsive">
-				<li><a href="job-seeker-home.html"> کارهای پیشنهادی</a> </li>
-				<li><a href="add-resume.html">ویرایش اطلاعات</a></li>
-				<li><a href="job-alerts.html">پیشنهادات مصاحبه</a></li>
-				<li><a href="browse-jobs.html">جست‌وجوی کار</a></li>
-				<li><a href="index.html">خروج <i class="fa fa-sign-out"></i> </a></li>
-			</ul>
-		</nav>
-
-		<!-- Navigation -->
-		<div id="mobile-navigation">
-			<a href="#menu" class="menu-trigger"><i class="fa fa-reorder"></i> منو</a>
-		</div>
-
 	</div>
-</div>
 </header>
 <div class="clearfix"></div>
 
@@ -93,27 +94,16 @@
 				<a href="#" class="button linkedin-btn" dir="rtl" >منتقل کردن از LinkedIn</a>
 			</div>
 
-			<!-- Email -->
 			<div class="form">
-				<h5>نام</h5>
-				<input class="search-field" type="text" placeholder="نام" value=""/>
-			</div>
-			<div class="form">
-				<h5>نام خانوادگی</h5>
-				<input class="search-field" type="text" placeholder="نام خانوادگی" value=""/>
+				<h5>نام شرکت</h5>
+				<input class="search-field" type="text" placeholder="نام شرکت" value=""/>
 			</div>
 
-			<!-- Email -->
-			<!-- <div class="form">
-				<h5>Your Email</h5>
-				<input class="search-field" type="text" placeholder="mail@example.com" value=""/>
-			</div> -->
-
-			<!-- Title -->
 			<div class="form">
-				<h5>عنوان حرفه‌ای</h5>
-				<input class="search-field" type="text" placeholder="مثال: توسعه‌دهنده‌ی وب" value=""/>
+				<h5>کمی توضیح درباره‌ی شرکت <span>(حداکثر ۱۰۰ کاراکتر)</span></h5>
+				<textarea class="form-control limited" id="reg_brief_description" rows="3" maxlength="100" placeholder=""></textarea>
 			</div>
+
 
 			<!-- Location -->
 			<div class="form">
@@ -121,28 +111,36 @@
 				<input class="search-field" type="text" placeholder="مثال: تهران، خیابان شریعتی" value=""/>
 			</div>
 
-			<!-- Choose Skill -->
+
 			<div class="form">
-				<div class="select">
-					<h5>مهارت‌ها</h5>
-					<select data-placeholder="انتخاب مهارت‌ها" class="chosen-select" multiple>
-						<option value="HTML">HTML</option>
-						<option value="Django">Django</option>
-						<option value="Node.js">Node.js</option>
-						<option value="Machine Learning">Machine Learning</option>
-						<option value="UI/UX">UI/UX</option>
-					</select>
-				</div>
+				<h5>نوع شرکت</h5>
+				<select class="form-control" id="reg_is_public">
+					<option>خصوصی</option>
+					<option>دولتی</option>
+				</select>
 			</div>
 
-			<!-- CV -->
 			<div class="form">
-				<h5>رزومه </h5>
-				<label class="upload-btn">
-				    <input type="file" multiple />
-				    <i class="fa fa-upload" dir="rtl" ></i>  انتخاب فایل
-				</label>
-				<span class="fake-input" dir="rtl" >هیچ فایلی انتخاب نشده‌است</span>
+				<h5>سال ساخت شرکت</h5>
+				<select id="reg_constitution_year" style="width:100%;" class="form-control selectWidth" >
+					<option>1397</option>
+					<option>1396</option>
+					<option>1395</option>
+					<option>1394</option>
+					<option>1393</option>
+					<option>1392</option>
+					<option>1391</option>
+					<option>1390</option>
+					<option>1389</option>
+					<option>1388</option>
+					<option>1387</option>
+					<option>1386</option>
+					<option>1385</option>
+					<option>1384</option>
+					<option>1383</option>
+					<option>1382</option>
+					<option>1381</option>
+				</select>
 			</div>
 
 
