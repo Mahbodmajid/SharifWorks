@@ -5167,6 +5167,26 @@ textarea.WYSIWYG { min-height: 300px; }
 	margin: 50px 0 35px 0;
 }
 
+.transaction td{
+	padding: 5px;
+}
+
+.transaction {
+	width: 100%;
+}
+
+.transaction-text {
+	width:calc(100% - 200px);;
+}
+
+.transaction-time {
+	width: 50px;
+}
+
+.transaction-date {
+	width: 150px;
+}
+
 .submit-page .button.linkedin-btn { background-color: #0077b5; }
 
 .formline {
