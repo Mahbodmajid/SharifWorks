@@ -6,7 +6,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>شریف‌کار</title>
+<title>شریف‌کار - تعویض گذرواژه</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -32,26 +32,22 @@
 <header>
 <div class="container">
 	<div class="sixteen columns">
-	
+
 		<!-- Logo -->
 		<div id="logo">
-			<h1><a href="index.html"><img src="images/logo.png" alt="شریف‌کار" /></a></h1>
+			<h1><a href="job-seeker-home.html"><img src="images/logo.png" alt="شریف‌کار" /></a></h1>
 		</div>
 
 		<!-- Menu -->
 		<nav id="navigation" class="menu">
 			<ul id="responsive">
-
-				<li><a href="index.html">خانه</a>
-				</li>
-
-				<li><a href="my-account-employer.html">برای کارفرمایان</a>
-				</li>
-
-				<li><a href="my-account-job-seeker.html">برای کارجوها</a>
-				</li>
+				<li><a href="job-seeker-home.html"> کارهای پیشنهادی</a> </li>
+				<li><a href="add-resume.html">ویرایش اطلاعات</a></li>
+				<li><a href="job-alerts.html">پیشنهادات مصاحبه</a></li>
+				<li><a href="browse-jobs.html">جست‌وجوی کار</a></li>
+				<li><a href="job-seeker-change-pass.html">  تغییر گذرواژه <i class="fa fa-key"></i></a> </li>
+				<li><a href="index.html">خروج <i class="fa fa-sign-out"></i> </a></li>
 			</ul>
-
 		</nav>
 
 		<!-- Navigation -->
@@ -65,81 +61,51 @@
 <div class="clearfix"></div>
 
 
-
-<!-- Slider
+<!-- Titlebar
 ================================================== -->
-<div class="fullwidthbanner-container">
-	<div class="fullwidthbanner">
-		<ul>
+<div id="titlebar" class="single submit-page">
+	<div class="container">
 
-			<!-- Slide 1 -->
-			<li data-fstransition="fade" data-transition="fade" data-slotamount="10" data-masterspeed="300">
-				<img src="images/banner-02.jpg" alt="">
+		<div class="sixteen columns">
+			<h2><i class="fa fa-key"></i> تغییر گذرواژه</h2>
+		</div>
 
-				<div class="caption title sfb" data-x="center" data-y="165" data-speed="400" data-start="800"  data-easing="easeOutExpo">
-					<h2>شریف‌‌کار</h2>
-				</div>
-
-				<div class="caption text align-center sfb" data-x="center" data-y="240" data-speed="400" data-start="1200" data-easing="easeOutExpo">
-					<p> سامانه‌ی اختصاصی کاریابی دانشجویان و فارغ‌التحصیلان دانشگاه صنعتی شریف </p>
-				</div>
-
-				<div class="caption sfb" data-x="center" data-y="370" data-speed="400" data-start="1600" data-easing="easeOutExpo">
-					<a href="my-account-job-seeker.html" class="slider-button">کارجو</a>
-					<a href="my-account-employer.html" class="slider-button">کارفرما</a>
-				</div>
-			</li>
-
-		</ul>
 	</div>
 </div>
 
 
-
 <!-- Content
 ================================================== -->
+<div class="container">
+	
+	<!-- Submit Page -->
+	<div class="sixteen columns">
+		<div class="submit-page">
 
-<!-- Counters -->
-<div id="counters">
-		<div class="container">
-	
-			<div class="four columns">
-				<div class="counter-box">
-					<span class="counter">15</span><i>k</i>
-					<p>آگهی شغلی</p>
-				</div>
+			<!-- Email -->
+			<div class="form">
+				<h5>گذرواژه‌ی قدیمی</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="گذرواژه‌ی قدیمی" />
 			</div>
-	
-			<div class="four columns">
-				<div class="counter-box">
-					<span class="counter">4982</span>
-					<p>عضو</p>
-				</div>
+			<div class="form">
+				<h5>گذرواژه‌ی جدید</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="گذرواژه‌ی جدید" />
 			</div>
-	
-			<div class="four columns">
-				<div class="counter-box">
-					<span class="counter">768</span>
-					<p>رزومه‌ی ارسالی</p>
-				</div>
+			<div class="form">
+				<h5>تکرار گذرواژه‌ی جدید</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="تکرار گذرواژه‌ی جدید" />
 			</div>
-	
-			<div class="four columns">
-				<div class="counter-box">
-					<span class="counter">90</span><i>%</i>
-					<p>شانس کاریابی</p>
-				</div>
-			</div>
-	
+			<a href="#" class="button big margin-top-5"> <i class="fa fa-arrow-circle-left"></i> تغییر گذرواژه</a>
+
 		</div>
 	</div>
 
-
+</div>
 
 
 <!-- Footer
 ================================================== -->
-<div class="margin-top-55"></div>
+<div class="margin-top-60"></div>
 
 <div id="footer">
 	<!-- Bottom -->
@@ -175,6 +141,12 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
+
+
+<!-- WYSIWYG Editor -->
+<script type="text/javascript" src="scripts/jquery.sceditor.bbcode.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.sceditor.js"></script>
+
 
 
 </body>
