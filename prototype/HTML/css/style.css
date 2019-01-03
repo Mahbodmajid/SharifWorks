@@ -2765,7 +2765,7 @@ img.mfp-img {
 .job-list img {
 	float: right;
 	display: inline-block;
-	margin-left: 35px;
+	margin-right: 35px;
 	margin-top: 2px;
 	width: 60px;
 	height: 60px;
