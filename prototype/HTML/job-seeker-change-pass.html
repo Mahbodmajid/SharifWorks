@@ -6,7 +6,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>شریف‌کار - پیشنهادات مصاحبه</title>
+<title>شریف‌کار - تعویض گذرواژه</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -63,19 +63,11 @@
 
 <!-- Titlebar
 ================================================== -->
-<div id="titlebar" class="single">
+<div id="titlebar" class="single submit-page">
 	<div class="container">
 
 		<div class="sixteen columns">
-			<h2>پیشنهادات مصاحبه</h2>
-			<nav id="breadcrumbs">
-				<ul>
-					<li>شما اینجا هستید:</li>
-					<!-- TODO - inaro bayad automatic konim :/ va bara hame safe ha ezafe konim :/ -->
-					<li><a href="job-seeker-home.html">خانه</a></li>
-					<li>پیشنهادات مصاحبه</li>
-				</ul>
-			</nav>
+			<h2><i class="fa fa-key"></i> تغییر گذرواژه</h2>
 		</div>
 
 	</div>
@@ -86,84 +78,26 @@
 ================================================== -->
 <div class="container">
 	
-	<!-- Table -->
+	<!-- Submit Page -->
 	<div class="sixteen columns">
+		<div class="submit-page">
 
-		<p class="margin-bottom-25">پیشنهادات کافرمایان برای مصاحبه با شما در زیر نمایش داده شده‌اند.</p>
-
-		<table class="manage-table resumes responsive-table">
-
-			<tr>
-				<th><i class="fa fa-file-text"></i> نام کارفرما</th>
-				<th><i class="fa fa-tags"></i> نام شغل</th>
-				<th><i class="fa fa-calendar"></i> تاریخ پیشنهاد</th>
-				<th><i class="fa fa-map-marker"></i> مکان</th>
-				<th><i class="fa fa-clock-o"></i> نوع کار</th>
-				<th><i class="fa fa-check-square-o"></i> وضعیت</th>
-				<th></th>
-			</tr>
-
-			<!-- Item #1 -->
-			<tr>
-				<td>گیمرهای حرفه‌ای</td>
-				<td>مدیریت فرآیند</td>
-				<td>۱ فروردین ۱۳۹۸</td>
-				<td>تهران</td>
-				<td>تمام‌وقت</td>
-				<td>فعال</td>
-				<td class="action">
-					<a href="#"><i class="fa fa-check-circle-o"></i> نمایش آگهی</a>
-					<a href="#"><i class="fa fa-envelope"></i> ایمیل به کارفرما</a>
-					<!-- <a href="#"><i class="fa fa-pencil"></i> Edit</a> -->
-					<a href="#"><i class="fa  fa-eye-slash"></i> حذف از فهرست</a>
-					<a href="#" class="delete"><i class="fa fa-remove"></i> رد درخواست</a>
-				</td>
-			</tr>
-
-		</table>
-
-		<br>
-
-		<!-- <a href="#small-dialog" class="popup-with-zoom-anim button">Add Alert</a> -->
-
-		<!-- <div id="small-dialog" class="zoom-anim-dialog mfp-hide apply-popup">
-			<div class="small-dialog-headline">
-				<h2>Add Alert</h2>
+			<!-- Email -->
+			<div class="form">
+				<h5>گذرواژه‌ی قدیمی</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="گذرواژه‌ی قدیمی" />
 			</div>
-
-			<div class="small-dialog-content">
-				<form action="#" method="get" >
-					<input type="text" placeholder="Alert Name" value=""/>
-					<input type="text" placeholder="Keyword" value=""/>
-					<input type="text" placeholder="Location" value=""/>
-
-					
-					<select data-placeholder="Email Frequency" class="chosen-select-no-single">
-						<option value="">Email Frequency</option>
-						<option value="1">Daily</option>
-						<option value="2">Weekly</option>
-						<option value="3">Fortnightly</option>
-					</select>
-
-					<div class="clearfix"></div>
-					<div class="margin-top-15"></div>
-
-					
-					<select data-placeholder="Job Type" class="chosen-select" multiple>
-						<option value="1">Full-Time</option>
-						<option value="2">Part-Time</option>
-						<option value="3">Internship</option>
-						<option value="4">Freelance</option>
-						<option value="5">Temporary</option>
-					</select>
-
-					<div class="margin-top-20"></div>
-					<div class="divider"></div>
-
-					<button class="send">Save Alert</button>
-				</form>
+			<div class="form">
+				<h5>گذرواژه‌ی جدید</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="گذرواژه‌ی جدید" />
 			</div>
-		</div> -->
+			<div class="form">
+				<h5>تکرار گذرواژه‌ی جدید</h5>
+				<input dir= "ltr" class="input-text" type="password" name="password" placeholder="تکرار گذرواژه‌ی جدید" />
+			</div>
+			<a href="#" class="button big margin-top-5"> <i class="fa fa-arrow-circle-left"></i> تغییر گذرواژه</a>
+
+		</div>
 	</div>
 
 </div>
@@ -261,6 +195,12 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
+
+
+<!-- WYSIWYG Editor -->
+<script type="text/javascript" src="scripts/jquery.sceditor.bbcode.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.sceditor.js"></script>
+
 
 
 </body>
