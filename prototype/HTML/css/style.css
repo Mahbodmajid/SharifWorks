@@ -2781,7 +2781,7 @@ img.mfp-img {
 	margin: 35px 0 35px 35px;
 }
 
-.resume-titlebar img {
+.resume-titlebar img{
 	border-radius: 50%;
 	width: 110px;
 	height: 110px;
@@ -2789,6 +2789,24 @@ img.mfp-img {
 	margin-left: 0;
 	float: right;
 	display: inline-block;
+}
+
+.user-suggest img{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 6px;
+	float: right;
+	display: inline-block;
+}
+
+.user-suggest {
+	height: 100px;
+	padding: 10px;
+}
+
+.user-suggest h4 {
+	line-height: 100px;
 }
 
 
