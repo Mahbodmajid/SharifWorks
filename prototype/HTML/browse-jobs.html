@@ -16,6 +16,7 @@
 ================================================== -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/green.css" id="colors">
+	<link href="css/select2.css" rel="stylesheet"/>
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -82,12 +83,40 @@
 	<!-- Recent Jobs -->
 	<div class="eleven columns">
 	<div class="padding-right">
-		
-		<form action="#" method="get" class="list-search">
-			<button><i class="fa fa-search"></i></button>
-			<input type="text" placeholder="عنوان شغل، کلیدواژه‌ها یا نام شرکت" value=""/>
-			<div class="clearfix"></div>
-		</form>
+
+		<div class="search-page">
+
+
+			<form action="{% url "browse-jobs" %}" method="get" id="job-search-form">
+			<div class="form">
+				<div class="select">
+					<h5>شهرها</h5>
+					<select data-placeholder="انتخاب شهر‌ها" name="city" class="multiselect"
+							style="width: 100%" multiple="multiple">
+						<option value="ML">تهران</option>
+						<option value="DV">مشهد</option>
+						<option value="Mk">اصفهان</option>
+					</select>
+				</div>
+			</div>
+			<div class="form">
+				<div class="select">
+					<h5>مهارت‌ها</h5>
+					<select data-placeholder="انتخاب مهارت‌ها" name="skills" class="multiselect"
+							style="width: 100%" multiple="multiple">
+						<option value="ML">Machine Learning</option>
+						<option value="DV">Development</option>
+						<option value="Mk">Marketing</option>
+
+					</select>
+				</div>
+			</div>
+
+			<a href="#" onclick="document.getElementById('job-search-form').submit(); return false;"
+			   class="button big margin-top-5"> <i class="fa fa-search"></i> جستجو</a>
+			</form>
+		</div>
+
 
 		<ul class="job-list full">
 
@@ -333,6 +362,12 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
+<script src="scripts/select2.full.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.multiselect').select2({width: 'resolve'});
+    });
+</script>
 
 
 </body>
