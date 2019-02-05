@@ -16,6 +16,7 @@
 ================================================== -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/green.css" id="colors">
+	<link href="css/select2.css" rel="stylesheet"/>
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -80,12 +81,31 @@
 	<!-- Recent Jobs -->
 	<div class="eleven columns">
 	<div class="padding-right">
-		
-		<form action="#" method="get" class="list-search">
-			<button><i class="fa fa-search"></i></button>
-			<input type="text" placeholder="جست‌وجوی کارجو (مثال: طراحی لوگو)" value=""/>
-			<div class="clearfix"></div>
-		</form>
+
+		<div class="search-page">
+
+
+			<form action="#" method="get" id="job-search-form">
+				<div class="form">
+					<div class="select">
+						<h5>شهرها</h5>
+						<select data-placeholder="انتخاب شهر‌ها" name="city" class="multiselect"
+								style="width: 100%" multiple="multiple">
+							<option value="ML">تهران</option>
+							<option value="DV">مشهد</option>
+							<option value="Mk">اصفهان</option>
+						</select>
+					</div>
+				</div><div class="form">
+						<h5>نام یا کلیدواژه</h5>
+						<input type="text" placeholder="جست‌وجوی کارجو (مثال: طراحی لوگو)" value=""/>
+				</div>
+
+
+				<a href="#" onclick="document.getElementById('job-search-form').submit(); return false;"
+				   class="button big margin-top-5"> <i class="fa fa-search"></i> جستجو</a>
+			</form>
+		</div>
 
 		<ul class="resumes-list">
 
@@ -328,6 +348,12 @@
 <script src="scripts/jquery.counterup.min.js"></script>
 <script src="scripts/jquery.jpanelmenu.js"></script>
 <script src="scripts/stacktable.js"></script>
+<script src="scripts/select2.full.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.multiselect').select2({width: 'resolve'});
+    });
+</script>
 
 
 </body>
